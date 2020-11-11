@@ -20,8 +20,8 @@ int main()
 	//ªÊ÷∆÷±œﬂ
 	for (size_t i = 0; i < lines.size(); i++)
 	{
-		Vec4i l = lines[i];
-		line(srcMat, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0, 0, 255), 3, CV_AA);
+		Vec4i Ll = lines[i];
+		line(srcMat, Point(Ll[0], Ll[1]), Point(Ll[2], Ll[3]), Scalar(0, 0, 255), 3, CV_AA);
 	}
 
 	
